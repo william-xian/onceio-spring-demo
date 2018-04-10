@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.mx.app.constant.SysConfig;
+import cn.mx.app.holder.WalletHolder;
 import cn.mx.app.model.entity.Wallet;
-import cn.mx.app.prv.WalletProvider;
 
 @Controller
 public class ConfigController {
     @Autowired
-    private WalletProvider walletProvider;    
+    private WalletHolder walletProvider;    
     
     @RequestMapping("/transfer")
     @ResponseBody

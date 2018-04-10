@@ -1,4 +1,4 @@
-package cn.mx.app.prv;
+package cn.mx.app.holder;
 
 import org.springframework.stereotype.Service;
 
@@ -6,10 +6,10 @@ import cn.mx.app.model.entity.Wallet;
 import top.onceio.aop.annotation.Transactional;
 import top.onceio.db.dao.tpl.UpdateTpl;
 import top.onceio.exception.Failed;
-import top.onceio.plugins.springboot.SpringDaoProvider;
+import top.onceio.plugins.springboot.SpringDaoHolder;
 
 @Service
-public class WalletProvider extends SpringDaoProvider<Wallet> {
+public class WalletHolder extends SpringDaoHolder<Wallet> {
 	
 	@Transactional
 	public void transfer(Long from,Long to,Integer v) {
