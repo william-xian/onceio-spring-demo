@@ -19,6 +19,10 @@
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+		<dependency>
 			<groupId>top.onceio</groupId>
 			<artifactId>onceio</artifactId>
 			<version>0.0.1</version>
@@ -43,6 +47,11 @@
 			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>9.4.1208-jdbc42-atlassian-hosted</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
