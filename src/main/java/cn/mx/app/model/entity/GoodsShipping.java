@@ -1,8 +1,8 @@
 package cn.mx.app.model.entity;
 
-import top.onceio.db.annotation.Col;
-import top.onceio.db.annotation.Tbl;
-import top.onceio.db.tbl.OEntity;
+import top.onceio.core.db.annotation.Col;
+import top.onceio.core.db.annotation.Tbl;
+import top.onceio.core.db.tbl.OEntity;
 
 @Tbl
 public class GoodsShipping extends OEntity {

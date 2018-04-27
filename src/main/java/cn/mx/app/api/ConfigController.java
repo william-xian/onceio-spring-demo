@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.mx.app.holder.WalletHolder;
 import cn.mx.app.model.entity.Wallet;
-import top.onceio.util.OUtils;
+import top.onceio.core.util.OUtils;
 
 @Controller
 public class ConfigController {

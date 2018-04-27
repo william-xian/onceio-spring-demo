@@ -1,7 +1,7 @@
 package cn.mx.app.constant;
 
-import top.onceio.annotation.I18nCfg;
-import top.onceio.annotation.I18nCfgBrief;
+import top.onceio.core.annotation.I18nCfg;
+import top.onceio.core.annotation.I18nCfgBrief;
 
 @I18nCfg("zh")
 public class GoodsGenre {

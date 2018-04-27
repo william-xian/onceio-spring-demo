@@ -24,7 +24,7 @@
         </dependency>
 		<dependency>
 			<groupId>top.onceio</groupId>
-			<artifactId>onceio</artifactId>
+			<artifactId>onceio-core</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
