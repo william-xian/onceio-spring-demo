@@ -43,6 +43,6 @@ public class ConfigController {
     	map.put("getDatabaseMinorVersion", dmd.getDatabaseMinorVersion());
     	map.put("getDriverName", dmd.getDriverName());
     	map.put("getDriverVersion", dmd.getDriverVersion());
-    	return OUtils.toJSON(map);
+    	return OUtils.toJson(map);
     }
 }
