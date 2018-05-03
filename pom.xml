@@ -9,6 +9,10 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.0.RELEASE</version>
 	</parent>
+	<properties>
+  		<jetty.scope>compile</jetty.scope>
+  		<onceio.ver>0.0.2</onceio.ver>
+  	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -25,12 +29,12 @@
 		<dependency>
 			<groupId>top.onceio</groupId>
 			<artifactId>onceio-core</artifactId>
-			<version>0.0.1</version>
+			<version>${onceio.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>top.onceio</groupId>
 			<artifactId>plugin-springboot</artifactId>
-			<version>0.0.1</version>
+			<version>${onceio.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
