@@ -11,7 +11,7 @@
 	</parent>
 	<properties>
   		<jetty.scope>compile</jetty.scope>
-  		<onceio.ver>0.0.2</onceio.ver>
+  		<onceio.ver>0.0.4</onceio.ver>
   	</properties>
 	<dependencies>
 		<dependency>
